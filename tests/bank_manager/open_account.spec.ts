@@ -1,3 +1,10 @@
+/**
+ * Project: Online Bank Test Suite
+ * Author: Fernando Crosa (crosafernando@gmail.com)
+ * Date: 2025-06-24
+ * Description: Automated test for the Online Bank project using Playwright.
+ * Note: Feel free to reach out via email for any questions or clarifications.
+ */
 // Test case: Open Account Tests
 
 import { test, expect } from '@playwright/test';
