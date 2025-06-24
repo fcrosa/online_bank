@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "testing.automaticallyOpenPeekView": "failure",
+  "testing.defaultTestController": "vscode-playwright-test"
+}
