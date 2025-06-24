@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fcrosa/online_bank#readme",
   "devDependencies": {
-    "@playwright/test": "^1.53.1"
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
   }
 }
