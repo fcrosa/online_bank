@@ -1,7 +1,15 @@
+/**
+ * Project: Online Bank Test Suite
+ * Author: Fernando Crosa (crosafernando@gmail.com)
+ * Date: 2025-06-24
+ * Description: Automated test for the Online Bank project using Playwright.
+ * Note: Feel free to reach out via email for any questions or clarifications.
+ */
+// Test case: Bank Manager Login Tests
+
+
 import { test, expect } from '@playwright/test';
 
-// Test case: Bank Manager Login Tests
-const baseURL = 
 test.describe('Bank Manager Login Tests', () => {
 
   test('Login as Bank Manager', async ({ page, baseURL }) => {

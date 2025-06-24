@@ -1,7 +1,14 @@
+/**
+ * Project: Online Bank Test Suite
+ * Author: Fernando Crosa (crosafernando@gmail.com)
+ * Date: 2025-06-24
+ * Description: Automated test for the Online Bank project using Playwright.
+ * Note: Feel free to reach out via email for any questions or clarifications.
+ */
+// Test case: Add Customer with valid data
+
 import { test, expect } from '@playwright/test';
 import * as Helpers from '../utils/helpers'
-
-// Test case: Add Customer with valid data
 
 test('Add customer with valid data',  { tag: ['@regression','@smoke','@manager']}, async ({ page, baseURL }) => {
   // Navigate to the application URL

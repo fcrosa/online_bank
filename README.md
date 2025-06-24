@@ -1,30 +1,3 @@
-# Online Bank Test Suite
-
-## Overview
-
-This repository contains an automated test suite developed using Playwright. The tests are designed to verify the functionality of the [Online Bank](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login) application. The project is authored by **Fernando Crosa** (<crosafernando@gmail.com>).
-
-The test suite covers various scenarios, including login functionality, customer and bank manager operations, transactions, and more. It aims to ensure the reliability and correctness of the Online Bank system.
-
-## Repository
-
-The repository is hosted on GitHub: [Online Bank Test Suite](https://github.com/fcrosa/online_bank)
-
-## Prerequisites
-
-Before running the tests, ensure the following are installed on your system:
-
-- Node.js (v14 or higher)
-- NPM or Yarn
-- Playwright (tested with the latest version)
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/fcrosa/online_bank.git
-   cd online_bank
 
 # Online Bank Test Suite
 
@@ -33,6 +6,16 @@ Before running the tests, ensure the following are installed on your system:
 This repository contains an automated test suite developed using Playwright. The tests are designed to verify the functionality of the [Online Bank](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login) application. The project is authored by **Fernando Crosa** (<crosafernando@gmail.com>).
 
 The test suite covers various scenarios, including login functionality, customer and bank manager operations, transactions, and more. It aims to ensure the reliability and correctness of the Online Bank system.
+
+## Features
+
+#### Automated testing for:
+- Customer login and navigation.
+- Deposit and withdrawal transactions.
+- Viewing and clearing transaction history.
+- Sorting customer lists.
+- Adding new customers and accounts.
+- Modular helpers for reusable test setup and conditions.
 
 ## Repository
 
